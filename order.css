@@ -1,0 +1,88 @@
+.order {
+  --color-pale-blue: hsl(225, 100%, 94%);
+  --color-bright-blue: hsl(245, 75%, 52%);
+  font-size: 16px;
+  width: 90vw;
+  margin: auto;
+}
+
+.order .bg-hero {
+  display: block;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.order .info {
+  background-color: #fff;
+  padding: 35px 25px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+
+.order .info * {
+  margin-bottom: 25px;
+}
+
+.order .title {
+  font-size: 25px;
+}
+
+.order .desc {
+  line-height: 25px;
+  color: #555; 
+}
+
+.order .plan {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+}
+
+.order .plan * {
+  margin-bottom: 0;
+}
+
+.order .plan .change-link {
+  color: var(--color-bright-blue);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.order .plan .details {
+  text-align: left;
+  padding: 0 20px;
+  flex-grow: 1;
+}
+
+.order .plan .details * {
+  display: block;
+  margin-top: 5px;
+}
+
+.order .plan .details .price {
+  color: #555;
+}
+
+.order .proceed-link {
+  display: block;
+  background-color: var(--color-bright-blue);
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 0;
+  box-shadow: 0 20px 10px hsl(245, 75%, 95%);
+}
+
+.order .cancel-link {
+  display: block;
+  color: #555;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+

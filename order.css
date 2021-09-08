@@ -1,6 +1,10 @@
 .order {
   --color-pale-blue: hsl(225, 100%, 94%);
   --color-bright-blue: hsl(245, 75%, 52%);
+
+  --color-des-blue: hsl(224, 23%, 55%);
+  --color-light-pale-blue: hsl(245, 75%, 70%);
+
   font-size: 16px;
   width: 90vw;
   margin: auto;
@@ -51,6 +55,11 @@
   font-size: 14px;
 }
 
+.order .plan .change-link:hover {
+  text-decoration: none;
+  color: var(--color-light-pale-blue);
+}
+
 .order .plan .details {
   text-align: left;
   padding: 0 20px;
@@ -78,11 +87,19 @@
   box-shadow: 0 20px 10px hsl(245, 75%, 95%);
 }
 
+.order .proceed-link:hover {
+  background-color: var(--color-light-pale-blue);
+}
+
 .order .cancel-link {
   display: block;
-  color: #555;
+  color: var(--color-des-blue);
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 0;
+}
+
+.order .cancel-link:hover {
+  color: #333;
 }
 

@@ -1,7 +1,5 @@
 .order {
-  --color-pale-blue: hsl(225, 100%, 94%);
   --color-bright-blue: hsl(245, 75%, 52%);
-
   --color-des-blue: hsl(224, 23%, 55%);
   --color-light-pale-blue: hsl(245, 75%, 70%);
 
@@ -33,6 +31,7 @@
 
 .order .desc {
   line-height: 25px;
+  padding: 0 10px;
   color: #555; 
 }
 
@@ -103,3 +102,11 @@
   color: #333;
 }
 
+@media screen and (min-width: 400px) {
+  
+  .order {
+    width: auto;
+    max-width: 400px;
+  }
+
+}

@@ -5,10 +5,23 @@
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url(./images/pattern-background-mobile.svg);
+  --color-pale-blue: hsl(225, 100%, 94%);
+
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--color-pale-blue);
   background-repeat: no-repeat;
-  background-size: 220vh;
+}
+
+html:before {
+  content: "";
+  background-image:url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  z-index: -1;
+  display: inline-block;
+  height: 25vh;
+  width: 100vw;
 }
 
 main {
@@ -28,4 +41,24 @@ main {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 600px) {
+  
+  html {
+    background-image: none;
+    background-color: var(--color-pale-blue);
+  }
+
+  html::before {
+    content: "";
+    background-image:url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    z-index: -1;
+    display: inline-block;
+    height: 50vh;
+    width: 100vw;
+  }
 }

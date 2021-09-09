@@ -26,11 +26,13 @@ Users should be able to:
 
 Mobile
 
-![mobile-version](./ss/mobile-comp.jpg)
+![mobile-version](https://user-images.githubusercontent.com/87162909/132661194-9de7d08a-b130-427b-8c08-b65bbc294d08.png)
+
 
 Desktop
 
-![desktop-version](./ss/desktop-com.jpg)
+![desktop-version](https://user-images.githubusercontent.com/87162909/132661279-368086e4-7992-401e-b6b6-05f46d9ceb35.png)
+
 
 ### Links
 

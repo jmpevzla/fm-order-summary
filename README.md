@@ -34,8 +34,8 @@ Desktop
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/jmpevzla/fm-order-summary)
-- Live Site URL: [live site URL](https://jmpevzla.github.io/fm-order-summary/)
+- Solution URL: [https://github.com/jmpevzla/fm-order-summary](https://github.com/jmpevzla/fm-order-summary)
+- Live Site URL: [https://jmpevzla.github.io/fm-order-summary/](https://jmpevzla.github.io/fm-order-summary/)
 
 ## My process
 

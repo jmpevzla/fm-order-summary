@@ -35,7 +35,7 @@ Desktop
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://your-live-site-url.com)
 
 ## My process
 
@@ -46,15 +46,17 @@ Desktop
 - add media queries for desktop version
 - add both backgrounds version
 - add font
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first
+
 ### What I learned
 
-- To use Custom property
+- To use custom property
 - To use external fonts
 - To add a background svg pattern
 - Media queries
@@ -62,15 +64,16 @@ Desktop
 
 ### Continued development
 
-- better markup
-- to use SASS/SCSS
-- better design fixed
-- better time from start to end.
+- Improve markup
+- To use SASS/SCSS
+- Improve fit to design
+- Improve time from start to end.
+
 ### Useful resources
 
 - [W3Schools](https://www.w3schools.com) - This helped me for CSS custom property, flexbox and media queries.
 
-- [Stackoverflow](stackoverflow.com) - This is an amazing post for fix CSS problems.
+- [Stackoverflow](stackoverflow.com) - This site have amazing posts for fix CSS problems.
 
 ## Author
 
